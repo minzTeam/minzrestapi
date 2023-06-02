@@ -1,9 +1,9 @@
 # REST API | Minz Teambot™
 
-### Apikey Required
+### APIKEY REQUIRED
 You need <a href="https://api.minzteam.xyz">apikey</a> to get the response
 
-### Example Request
+### EXAMPLE REQUEST
 Use minzrestapi.py
 ```python
 from minzrestapi import *
@@ -38,8 +38,9 @@ JSON Result
 }
 ```
 
-### Full Documentation
-* <a href="https://api.minzteam.xyz/">REST API</a>
+### FULL DOCUMENTATION
+<a href="https://api.minzteam.xyz/">REST API</a>
 
-### Contact For Buy Apikey
-* <a href="https://line.me/ti/p/~visss.">Giusto Nur Rais</a>
+### CONTACT US
+<a href="https://line.me/ti/p/~visss.">CREATOR</a>
+<a href="https://line.me/ti/p/~giustoraisv2">ADMIN</a>
