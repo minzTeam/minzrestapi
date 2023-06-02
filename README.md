@@ -42,5 +42,4 @@ JSON Result
 <a href="https://api.minzteam.xyz/">REST API</a>
 
 ### CONTACT US
-* <a href="https://line.me/ti/p/~visss.">CREATOR</a>
-* <a href="https://line.me/ti/p/~giustoraisv2">ADMIN</a>
+<a href="https://line.me/ti/p/~visss.">CREATOR</a>
