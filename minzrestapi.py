@@ -1,17 +1,5 @@
 import requests, json, threading
 
-'''
-
-EXAMPLE
-
-from minzrestapi import *
-
-api = MinzRestApi('YOUR APIKEY')
-data = api.googleSearch("Naruto")
-api.print_result(data)
-
-'''
-
 class MinzRestApi(threading.Thread):
     def __init__(self, apikey):
         super(MinzRestApi, self).__init__()
