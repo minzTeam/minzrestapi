@@ -214,6 +214,11 @@ class MinzRestApi(threading.Thread):
         main = self.requestGet("/kbbi", params)
         return main
 
+    def youtubeSearch(self, query):
+        params = {"query": query, "apikey": self.headers}
+        main = self.requestGet("/youtube", params)
+        return main
+
     def lyricSearch(self, query):
         params = {"query": query, "apikey": self.headers}
         main = self.requestGet("/lyric", params)
