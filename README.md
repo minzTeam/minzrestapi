@@ -68,6 +68,10 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 ```
+Shell Language
+```shell
+curl "https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY" \
+```
 JSON Result
 ```json
 {
