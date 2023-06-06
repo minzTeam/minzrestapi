@@ -25,9 +25,31 @@ api = requests.get("https://api.minzteam.xyz/joox", params=params).json()
 
 print(api)
 ```
+Python
+```go
+package main
+
+import ("net/http"; "net/url"; "fmt"; "encoding/json")
+
+func main() {
+    baseURL := "http://api.minzteam.xyz"
+    resource := "/joox"
+    params := url.Values{}
+    params.Add("apikey", "YOUR_APIKEY")
+    params.Add("query", "kota dere")
+
+    u, _ := url.ParseRequestURI(baseURL)
+    u.Path = resource
+    u.RawQuery = params.Encode()
+    urlStr := fmt.Sprintf("%v", u)
+
+    r, _ := http.Get(urlStr)
+    defer r.Body.Close()
+}
+```
 JavaScript
 ```javascript
-fetch('https://api.minzteam.xyz/authtoprimary_?authkey=ub5eaad045cfb0a2b4ecdee9857c75e92:XKtwQyRvKS16fP5q5DqO&apikey=YOUR_APIKEY')
+fetch('https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));
