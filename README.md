@@ -13,7 +13,7 @@ data = api.joox("Golden Hour")
 
 api.print_result(data)
 ```
-Python
+Python Language
 ```python
 import requests, json
 
@@ -47,7 +47,7 @@ func main() {
     defer r.Body.Close()
 }
 ```
-JavaScript
+JavaScript Language
 ```javascript
 fetch('https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY')
   .then(response => response.json())
