@@ -90,3 +90,10 @@ JSON Result
 
 ### CONTACT US
 <a href="https://line.me/ti/p/~visss.">CREATOR</a>
+
+### SUPPORTED BY
+* Alm. ZeroCool
+* Phantom Coder
+* Superline Project
+* Vnyll Teambot
+* Talk Exception
