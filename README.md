@@ -25,7 +25,7 @@ api = requests.get("https://api.minzteam.xyz/joox", params=params).json()
 
 print(api)
 ```
-Python
+Google Language
 ```go
 package main
 
