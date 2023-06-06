@@ -54,6 +54,20 @@ fetch('https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY')
   .then(data => console.log(data))
   .catch(error => console.error(error));
 ```
+PHP Language
+```php
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, 'https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+
+$result = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+```
 JSON Result
 ```json
 {
