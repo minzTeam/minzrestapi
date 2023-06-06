@@ -13,8 +13,20 @@ data = api.joox("Golden Hour")
 
 api.print_result(data)
 ```
-Use Function Request
+Python
 ```python
+import requests, json
+
+params = {
+  "apikey": "YOUR APIKEY",
+  "query": "Golden Hour"
+}
+api = requests.get("https://api.minzteam.xyz/joox", params=params).json()
+
+print(api)
+```
+JavaScript
+```javascript
 import requests, json
 
 params = {
