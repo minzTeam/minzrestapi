@@ -36,7 +36,7 @@ func main() {
     resource := "/joox"
     params := url.Values{}
     params.Add("apikey", "YOUR_APIKEY")
-    params.Add("query", "kota dere")
+    params.Add("query", "Golden Hour")
 
     u, _ := url.ParseRequestURI(baseURL)
     u.Path = resource
@@ -49,7 +49,7 @@ func main() {
 ```
 JavaScript Language
 ```javascript
-fetch('https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY')
+fetch('https://api.minzteam.xyz/joox?query=Golden%20Hour&apikey=YOUR_APIKEY')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));
@@ -58,7 +58,7 @@ PHP Language
 ```php
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY');
+curl_setopt($ch, CURLOPT_URL, 'https://api.minzteam.xyz/joox?query=Golden%20Hour&apikey=YOUR_APIKEY');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 
@@ -70,7 +70,7 @@ curl_close($ch);
 ```
 Shell Language
 ```shell
-curl "https://api.minzteam.xyz/joox?query=kota%20dere&apikey=YOUR_APIKEY" \
+curl "https://api.minzteam.xyz/joox?query=Golden%20Hour&apikey=YOUR_APIKEY" \
 ```
 JSON Result
 ```json
