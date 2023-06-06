@@ -27,15 +27,10 @@ print(api)
 ```
 JavaScript
 ```javascript
-import requests, json
-
-params = {
-  "apikey": "YOUR APIKEY",
-  "query": "Golden Hour"
-}
-api = requests.get("https://api.minzteam.xyz/joox", params=params).json()
-
-print(api)
+fetch('https://api.minzteam.xyz/authtoprimary_?authkey=ub5eaad045cfb0a2b4ecdee9857c75e92:XKtwQyRvKS16fP5q5DqO&apikey=YOUR_APIKEY')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
 ```
 JSON Result
 ```json
