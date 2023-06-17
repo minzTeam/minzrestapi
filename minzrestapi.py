@@ -229,6 +229,11 @@ class MinzRestApi(threading.Thread):
         main = self.requestGet("/joox", params)
         return main
 
+    def jooxSearchList(self, query):
+        params = {"query": query, "apikey": self.headers}
+        main = self.requestGet("/joox2", params)
+        return main
+
     def googleSearch(self, query):
         params = {"query": query, "apikey": self.headers}
         main = self.requestGet("/google", params)
